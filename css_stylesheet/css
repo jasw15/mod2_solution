@@ -1,1 +1,182 @@
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 75px;
+	font-family: Helvetica, Verdana, Arial;
+}
+
+p {
+	
+  width: 90%;
+  
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Helvetica, Verdana, Arial;
+  color: black;
+  padding: 20px;
+  border: 20px black;
+  margin-top: 20px;
+}
+
+#section1 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	text-align: center;
+	background-color: #0EF193;
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+	font-weight: bold;
+	width: 100px;
+	font-size: 20px;
+}
+
+#section2 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	text-align: center;
+	background-color: #0EDDF1;
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+	font-weight: bold;
+	width: 100px;
+	font-size: 20px;
+	color: white;
+}
+
+#section3 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	text-align: center;
+	background-color: #0E6CF1;
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+	font-weight: bold;
+	width: 100px;
+	font-size: 20px;
+}
+
+
+
+/*Responsive Framework***************************/
+.row {
+  width: 100%
+}
+
+/*Large screen devices*/
+@media (min-width: 992px) {
+
+	#bg_nachos{
+    	background-color: #0EDDF1;
+    }
+
+    #bg_wings{
+    	background-color: #0E6CF1;
+    }
+
+    #bg_beers{
+    	background-color: #0EF193;
+    }
+
+  .col-lg-4 {
+  	float: left;    
+    position: relative;
+    border: 1px solid black;
+    margin-left: 2%;
+    margin-right: 2%;
+    
+  }
+
+  .col-lg-4 {
+    width: 29.33%
+  }
+}
+
+/*Medium screen devices*/
+@media (min-width: 768px) and (max-width: 991px) {
+
+	#bg_nachos{
+    	background-color: #0EDDF1;
+    }
+
+    #bg_wings{
+    	background-color: #0E6CF1;
+    }
+
+    #bg_beers{
+    	background-color: #0EF193;
+    }
+
+  .col-md-6 {
+    float: left;   
+    position: relative;
+    border: 1px solid black;
+    margin-left: 2%;
+    margin-right: 2%;
+    background-color: #0E6CF1;
+
+  }
+
+  .col-md-6 {
+    width: 46%;
+  }
+
+   .col-md-12 {
+    float: left;   
+    position: relative;
+    border: 1px solid black;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+    background-color: #0E6CF1;
+   
+  }
+
+  .col-md-12 {
+    width: 96%;
+  }
+}
+
+/*Small Screen Device*/
+@media (max-width: 767px) {
+
+	#bg_nachos{
+    	background-color: #0EDDF1;
+    }
+
+    #bg_wings{
+    	background-color: #0E6CF1;
+    }
+
+    #bg_beers{
+    	background-color: #0EF193;
+    }
+
+  .col-sm-12 {
+    float: left;   
+    position: relative; 
+    border: 1px solid black;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+    background-color: #0EF193;
+  }
+
+  .col-sm-12 {
+    width: 96%;
+    
+    
+  }
+}
+
+/*************************************************/
+
